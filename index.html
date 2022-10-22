@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/credit-card.png">
+  
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <title>Front-End | Card</title>
+
+</head>
+<body>
+<!--
+  0000 0000 0000 0000
+  Jane Appleseed
+  00/00
+
+  000
+
+  Cardholder Name
+  e.g. Jane Appleseed
+
+  Card Number
+  e.g. 1234 5678 9123 0000
+
+  Exp. Date (MM/YY)
+  MM
+  YY
+
+  CVC
+  e.g. 123
+
+  Confirm 
+
+ -- Completed state start --
+
+  Thank you!
+  We've added your card details
+  Continue
+  -->
+
+  <main>
+
+    <div class="cartao">
+      <img-frente></img-frente>
+    </div>
+    
+    <div class="cartao-tras">
+      <img src="" alt="">
+    </div>
+        
+    <form action="" class="formulario">
+      
+      <label for="cardName">cardholder name</label>
+      <input type="text" class="formulario__entrada" id="cardName" placeholder="e.g. Jane Appleseed">
+      
+      <label for="cardNumber">card number</label>
+      <input type="text" class="formulario__entrada" id="cardNumber" placeholder="e.g. Jane Appleseed">
+      
+      <div class="container-align">
+        <label for="">Exp. date (mm/yy)</label>
+        <input type="text" class="formulario__entrada" id="dateMonth" placeholder="MM">
+        <input type="text" class="formulario__entrada" id="dateYear" placeholder="YY">
+        
+
+        <label for="securityCode">cvc</label>
+        <input type="text" class="formulario__entrada" id="securityCode" placeholder="e.g 123">
+      </div>
+
+      <button class="formulario__confirma">Confirm</button>
+      
+    </form>
+
+  </main>
+</body>
+</html>
