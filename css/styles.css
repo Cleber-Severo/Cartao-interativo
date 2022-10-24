@@ -8,6 +8,9 @@
 body {
     width: 100vw;
     height: 100%;
+
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
 }
 
 main {
@@ -20,13 +23,3 @@ main {
     height: 100vh;
 }
 
-.formulario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.container-align {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}

@@ -3,9 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/credit-card.png">
+  <link rel="icon" type="image/png" sizes="30x30" href="./images/ccard.png">
   
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/cartoes.css">
+  <link rel="stylesheet" href="./css/formulario.css">
+  <link rel="stylesheet" href="./css/completo.css">
 
   <title>Front-End | Card</title>
 
@@ -42,12 +49,19 @@
 
   <main>
 
-    <div class="cartao">
-      <img-frente></img-frente>
-    </div>
     
-    <div class="cartao-tras">
-      <img src="" alt="">
+    <div class="cartao-tras"><p class="cartao-tras__cvc">000</p></div>
+      
+    <div class="cartao">
+      <div class="circulo_G"></div>
+      <div class="circulo_P"></div>
+
+      <p class="cartao__info">0000 0000 0000 0000</p>
+      <div class="cartao__container">
+        <p class="cartao__container--nome">JANE APPLESEED</p>
+        <p class="cartao__container--data">00/00</p>
+      </div>
+
     </div>
         
     <form action="" class="formulario">
@@ -68,10 +82,21 @@
         <input type="text" class="formulario__entrada" id="securityCode" placeholder="e.g 123">
       </div>
 
-      <button class="formulario__confirma">Confirm</button>
+      <button class="botao" id="confirma_formulario">Confirm</button>
       
     </form>
 
+    <div class="completo" id="complet">
+
+      <div class="completo__sucesso"></div>
+      <h2 class="completo__texto">Thank You</h2>
+      <p class="completo__detalhe">We've added your card details</p>
+      <button class="botao" id="confirma-reseta">Continue</button>
+
+    </div>
+
   </main>
+
+  <script src="main.js"></script>
 </body>
 </html>

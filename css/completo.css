@@ -1,0 +1,11 @@
+.completo {
+    position: absolute;
+    right: -100vw;
+    transition: .25s;
+}
+
+.completo-show {
+
+    right: 0;
+    transition: .25s;
+}
