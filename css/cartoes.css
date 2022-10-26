@@ -2,7 +2,7 @@
     max-height: 166.75px;
     max-width: 281.25px;
 
-    margin-top: -4.99rem;
+    margin-top: -5.9rem;
     margin-left: 1.4rem;
 
     z-index: 1;
@@ -12,8 +12,8 @@
 .cartao-frente--logo {
     width: 3.7rem;
     position: absolute;
-    left: 2rem;
-    top: 9rem;
+    left: 2.5rem;
+    top: 8.0rem;
 }
 
 .cartao-tras {
@@ -36,18 +36,26 @@
 
 .cartao__container {
     position: absolute;
-    left: 2rem;
-    top: 15.4rem;
+    left: 2.5rem;
+    top: 14.5rem;
 
     display: flex;
     justify-content: space-between;
     gap: 5rem;
+    width: 250px;
+}
+
+.cartao__container p {
+    font-size: 12px;
 }
 
 .cartao__info {
     position: absolute;
-    left: 2rem;
-    top: 13.5rem;
+    left: 2.4rem;
+    top: 12.1rem;
+    text-align: center;
+    font-size: 19px;
+    letter-spacing: 2px;
 }
 
 .cartao__info, .cartao__container--nome, .cartao__container--data {
