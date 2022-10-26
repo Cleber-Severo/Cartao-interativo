@@ -61,3 +61,37 @@
 .cartao__info, .cartao__container--nome, .cartao__container--data {
     color: hsl(270, 3%, 87%);
 }
+
+@media screen and (min-width: 1024px) {
+    .cartoes_container {
+        width: 30%;
+        height: 100%;
+       
+        
+     
+    }
+    
+    .cartao-frente {    
+        max-height: 166.75px;
+        max-width: 281.25px;
+
+        position: absolute;
+        left: 20%;
+        top: 20%;
+        z-index: 0;
+
+    }
+    .cartao-tras {
+        max-height: 166.75px;
+        max-width: 281.25px;
+
+        z-index: 1;
+    }
+
+    .cartao-tras__cvc {
+        color: hsl(270, 3%, 87%);
+        position: relative;
+        top: -5.8rem;
+        left: 18.4rem;
+    }
+}

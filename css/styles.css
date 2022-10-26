@@ -25,3 +25,24 @@ main {
     height: 100vh;
 }
 
+@media screen and (min-width: 1024px) {
+    main {
+        background-image: url(../images/bg-main-desktop.png);
+        background-repeat: no-repeat;
+        background-position: -90% 0;
+        background-size: 819px;
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    main {
+        background-size: 1220px;
+    }
+}
+
+
