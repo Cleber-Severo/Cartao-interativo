@@ -40,22 +40,22 @@
     <form action="" class="formulario">
       
       <label for="cardName">cardholder name</label>
-      <input type="text" class="formulario__entrada" id="cardName" onkeyup="muda()" placeholder="e.g. Jane Appleseed">
+      <input type="text" class="formulario__entrada" id="cardName" onkeyup="mudaNome()" placeholder="e.g. Jane Appleseed" required>
       
       <label for="cardNumber">CARD NUMBER</label>
-      <input type="text" class="formulario__entrada" id="cardNumber" placeholder="e.g. Jane Appleseed">
+      <input type="text" class="formulario__entrada" id="cardNumber" onkeyup="mudaNumero()" placeholder="e.g. Jane Appleseed" required>
       
       <div class="container-align">
         <label for="" class="expira">Exp. date (mm/yy)</label>
-        <input type="text" class="formulario__entrada mes" id="dateMonth" placeholder="MM">
-        <input type="text" class="formulario__entrada ano" id="dateYear" placeholder="YY">
+        <input type="text" class="formulario__entrada mes" id="dateMonth" onkeyup="mudaMes()"  placeholder="MM" required>
+        <input type="text" class="formulario__entrada ano" id="dateYear"  onkeyup="mudaAno()" placeholder="YY" required>
         
 
         <label for="securityCode" class="seguranca">cvc</label>
-        <input type="text" class="formulario__entrada seguranca-entrada" id="securityCode" placeholder="e.g 123">
+        <input type="text" class="formulario__entrada seguranca-entrada" id="securityCode" onkeyup="mudaCvc()"  placeholder="e.g 123" required>
       </div>
 
-      <button class="botao" id="confirma_formulario" onClick="F()">Confirm</button>
+      <button class="botao" id="confirma_formulario">Confirm</button>
       
     </form>
 

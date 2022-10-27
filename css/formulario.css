@@ -31,6 +31,12 @@
     color: hsl(270, 3%, 87%);
 }
 
+.formulario__entrada:focus {
+    outline: none;
+    border: 2px solid hsl(278, 68%, 11%)
+
+}
+
 .formulario label {
     color: hsl(278, 68%, 11%);
 
