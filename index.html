@@ -28,7 +28,7 @@
       <img src="./images/bg-card-front.png" alt="cartao parte da frente" class="cartao-frente">
       <img src="./images/card-logo.svg" alt="" class="cartao-frente--logo">
 
-      <p class="cartao__info">0000 0000 0000 0000</p>
+      <p class="cartao__info" id="cartao__inf">0000 0000 0000 0000</p>
      
       <div class="cartao__container">
         <p class="cartao__container--nome">JANE APPLESEED</p>
@@ -40,7 +40,7 @@
     <form action="" class="formulario">
       
       <label for="cardName">cardholder name</label>
-      <input type="text" class="formulario__entrada" id="cardName" placeholder="e.g. Jane Appleseed">
+      <input type="text" class="formulario__entrada" id="cardName" onkeyup="muda()" placeholder="e.g. Jane Appleseed">
       
       <label for="cardNumber">CARD NUMBER</label>
       <input type="text" class="formulario__entrada" id="cardNumber" placeholder="e.g. Jane Appleseed">

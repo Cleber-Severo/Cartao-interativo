@@ -1,13 +1,5 @@
 //This is the JavaScript 
-
-var nome =  document.querySelector(".cartao__info")
-var entrada =  document.getElementById("cardName").value
-
-
-nome.innerHTML = "entrada de usuario" 
-
-nome.textContent = entrada
-
-function F() {
-    console.log(entrada)
+function muda () {
+    var entrada =  document.getElementById("cardName").value
+    document.getElementById("cartao__inf").innerHTML = entrada;
 }
