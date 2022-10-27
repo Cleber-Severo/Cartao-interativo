@@ -29,12 +29,14 @@ main {
     main {
         background-image: url(../images/bg-main-desktop.png);
         background-repeat: no-repeat;
-        background-position: -90% 0;
-        background-size: 819px;
+        background-position: -50% 0;
+        background-size: 60%;
         
         display: flex;
         justify-content: space-around;
         align-items: center;
+
+        overflow-y: hidden;
     }
 
 }
