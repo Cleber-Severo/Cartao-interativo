@@ -1,6 +1,7 @@
 //This is the JavaScript 
 
 const formulario = document.querySelector(".formulario")
+const resetBtn = document.getElementById("confirma-reseta")
 
 formulario.addEventListener('input', function (e) {
     switch (e.target.id) {
@@ -38,8 +39,26 @@ function erro(entrada) {
 formulario.addEventListener('submit', function (e) {
     // prevent the form from submitting
     e.preventDefault();
- 
+    const confirmaBtn = document.getElementById("confirma_formulario")
+    let formulario_confirma = mudaNome()
+
+    confirmaBtn.addEventListener("click", function (){
+         if (formulario_confirma === true) {
+        document.querySelector(".principalF").style.display = "none"
+        document.querySelector(".completo").style.display = "block"
+    }
+    })
+
+   
 })
+
+resetBtn.addEventListener("click", function (){
+    formulario.submit()
+    document.querySelector(".principalF").style.display = "block"
+    document.querySelector(".completo").style.display = "none"
+})
+
+
 
 
 function mudaNome() {
@@ -53,6 +72,8 @@ function mudaNome() {
         nomeCartao.innerHTML = nome.value
         document.getElementById("erroNome").innerHTML = ""
         sucesso(nome)
+
+        return true
     }
 
 }
