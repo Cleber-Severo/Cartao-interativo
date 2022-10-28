@@ -62,6 +62,12 @@
     color: hsl(270, 3%, 87%);
 }
 
+
+
+.cartao__container--data {
+    margin-left: -3rem;
+}
+
 @media screen and (min-width: 1024px) {
     .cartoes_container {
         width: 30%;

@@ -13,9 +13,9 @@
     box-sizing: border-box;
 }
 
-.formulario__entrada {
+
+.formulario__entrada, .formulario__entrada--sucesso, .formulario__entrada--erro {
     border-radius: 6px;
-    border: 2px solid hsl(270, 3%, 87%);
     
     padding: 1rem;
 
@@ -23,6 +23,18 @@
     height: 3rem;
 
     margin-bottom: 1rem;
+}
+
+.formulario__entrada {
+    border: 2px solid hsl(270, 3%, 87%);   
+}
+
+.formulario__entrada--sucesso {
+    border: 2px solid green;
+}
+
+.formulario__entrada--erro {
+    border: 2px solid red
 }
 
 .formulario__entrada::placeholder {
@@ -96,6 +108,7 @@
 
 .botao {
     border-radius: 8px;
+    border: none;
     background-color: hsl(278, 68%, 11%);
     color: #FFFFFF;
 
@@ -107,6 +120,17 @@
 
     width: 100%;
     
+    transition: all .3s ease;
+}
+
+#erro_CVC, #erroNome, #erroNumero {
+    color: red;
+    align-self: flex-start;
+    margin-bottom: 1rem;
+}
+.botao:hover {
+    cursor: pointer;
+    background:  hsl(278, 68%, 18%);
 }
 
 @media screen and (min-width: 1024px) {
