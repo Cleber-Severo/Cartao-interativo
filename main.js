@@ -39,16 +39,12 @@ function erro(entrada) {
 formulario.addEventListener('submit', function (e) {
     // prevent the form from submitting
     e.preventDefault();
-    const confirmaBtn = document.getElementById("confirma_formulario")
     let formulario_confirma = mudaNome()
 
-    confirmaBtn.addEventListener("click", function (){
-         if (formulario_confirma === true) {
+    if (formulario_confirma === true) {
         document.querySelector(".principalF").style.display = "none"
         document.querySelector(".completo").style.display = "block"
     }
-    })
-
    
 })
 

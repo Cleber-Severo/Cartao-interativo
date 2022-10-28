@@ -36,3 +36,14 @@
 #confirma-reseta {
     width: 90%;
 }
+
+@media screen and (min-width: 1024px) {
+    #confirma-reseta {
+        max-width: 409.6px;
+
+    }
+
+    .completo__alinhamento {
+        transform: translateX(8rem);
+    }
+}
