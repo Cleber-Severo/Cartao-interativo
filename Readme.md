@@ -14,7 +14,7 @@ The user types the inputs following the correct types and with all the inputfiel
 ## Project design
 
 **Fisrt page**<br>
- <img width=50% textAlign="center" src="./img/screenshots/inicio" alt="Initial screen">
+ <img width=50% textAlign="center" src="./img/screenshots/inicio.png" alt="Initial screen">
  
  **First page with interactions**<br>
  <img width=50% src="./img/screenshots/inicio_interacao" alt="Interactions">
