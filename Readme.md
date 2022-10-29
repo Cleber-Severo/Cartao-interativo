@@ -14,13 +14,13 @@ The user types the inputs following the correct types and with all the inputfiel
 ## Project design
 
 **Fisrt page**<br>
- <img width=50% textAlign="center" src="./img/screenshots/inicio.png" alt="Initial screen">
+ <img width=50% textAlign="center" src="./images/screenshots/inicio.png" alt="Initial screen">
  
  **First page with interactions**<br>
- <img width=50% src="./img/screenshots/inicio_interacao" alt="Interactions">
+ <img width=50% src="./images/screenshots/inicio_interacao" alt="Interactions">
    
  **success screen**<br>
- <img width=50% src="./img/screenshots/inicio__interacao_sucesso" alt="success screen">
+ <img width=50% src="./images/screenshots/inicio__interacao_sucesso" alt="success screen">
 
  **Error messages**
-  <img width=50% src="./img/screenshots/error_messages" alt="error messages">
+  <img width=50% src="./images/screenshots/error_messages" alt="error messages">
