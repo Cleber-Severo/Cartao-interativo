@@ -22,5 +22,5 @@ The user types the inputs following the correct types and with all the inputfiel
  **success screen**<br>
  <img width=50% src="./images/screenshots/inicio__interacao_sucesso.png" alt="success screen">
 
- **Error messages**
+ **Error messages**<br>
   <img width=50% src="./images/screenshots/error_messages.png" alt="error messages">
