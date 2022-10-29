@@ -1,8 +1,10 @@
 //This is the JavaScript 
 
+//declarando as variaveis globais
 const formulario = document.querySelector(".formulario")
 const resetBtn = document.getElementById("confirma-reseta")
 
+//chama os inputs e seleciona o que está sendo alterado pelo usuario
 formulario.addEventListener('input', function (e) {
     switch (e.target.id) {
         case 'cardName':
@@ -24,7 +26,7 @@ formulario.addEventListener('input', function (e) {
 });
 
 
-
+//Validações ao realizar o submit
 formulario.addEventListener('submit', function (e) {
     // prevent the form from submitting
     e.preventDefault();
@@ -37,18 +39,21 @@ formulario.addEventListener('submit', function (e) {
     
 })
 
+//Botão de reset
 resetBtn.addEventListener("click", function (){
     formulario.submit()
-    document.querySelector(".principalF").style.display = "block"
-    document.querySelector(".completo").style.display = "none"
+    document.querySelector(".principalF").style.display = "block" //muda a visibilidade do formulario para block
+    document.querySelector(".completo").style.display = "none" //esconde tela de completo
 })
 
+//input sucesso, valores corretos para submit
 function sucesso(entrada) {
             entrada.classList.remove('formulario__entrada');
             entrada.classList.remove('formulario__entrada--erro');
             entrada.classList.add('formulario__entrada--sucesso');
         }
 
+//input erro, valores incorretos
 function erro(entrada) {
         entrada.classList.remove('formulario__entrada');
         entrada.classList.remove('formulario__entrada--sucesso');
