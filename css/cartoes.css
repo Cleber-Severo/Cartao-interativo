@@ -81,27 +81,31 @@
         max-width: 281.25px;
 
         position: absolute;
-        left: 18%;
-        top: 20%;
+        left: 20%;
+        top: 19%;
+
+        
 
     }
 
     .cartao-frente--logo {
-        left: 7.3rem;
+        left: 6rem;
         top: 3.2rem;
         z-index: 1;
     }
 
     .cartao__info {
+        margin: 0;
+        min-width: 100%;
         position: absolute;
-        left: 7.2rem;
+        left: 4.6rem;
         top: 8rem;
         z-index: 1;   
     }
 
     .cartao__container {
         position: absolute;
-        left: 7rem;
+        left: 6.1rem;
         top: 10.2rem;  
 
          z-index: 1;   
@@ -124,5 +128,20 @@
         transform: translate(18.5rem, 5.7rem);
 
         z-index: 1;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cartao-frente--logo {
+        transform: translateX(60%);
+
+    }  
+    
+    .cartao__info {
+        transform: translateX(-9%)
+    }
+
+    .cartao__container {
+        transform: translateX(10%)
     }
 }

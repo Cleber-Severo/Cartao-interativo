@@ -1,9 +1,18 @@
 .completo {
     display: none;
 
-    margin-top: 2rem;
 
     width: 100Vw;
+
+    position: relative;
+
+    margin-top: 3rem;
+    padding: 0 1.5rem;
+    
+    z-index: 1;
+
+    box-sizing: border-box;
+
 }
 
 .completo__alinhamento {
@@ -44,6 +53,15 @@
     }
 
     .completo__alinhamento {
-        transform: translateX(8rem);
+        transform: translateX(-16%);
+        transform: translatey(-16%);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .completo__alinhamento {
+        transform: translateX(-20%);
+        transform: translatey(-20%);
     }
 }
