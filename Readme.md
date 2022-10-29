@@ -26,5 +26,5 @@ The user types the inputs following the correct types and with all the inputfiel
   <img width=50% src="./images/screenshots/error_messages.png" alt="error messages">
 
 **Responsive**<br>
-  <img height=50%% width=40% margin-right=28px src="./images/screenshots/responsive-one.png" alt="error messages">
-  <img height=50% width=40% src="./images/screenshots/responsive-two.png" alt="error messages">
+  <img height=200 width=30% margin-right=28px src="./images/screenshots/responsive-one.png" alt="error messages">
+  <img height=200 width=30% src="./images/screenshots/responsive-two.png" alt="error messages">
